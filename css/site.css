@@ -1,0 +1,109 @@
+/* Стили для Markdown контента */
+
+.lesson-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1.5rem 0 1rem 0;
+  color: #1f2937;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.lesson-content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0 0.75rem 0;
+  color: #374151;
+}
+
+.lesson-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem 0;
+  color: #4b5563;
+}
+
+.lesson-content p {
+  margin: 0.75rem 0;
+  line-height: 1.8;
+  color: #374151;
+}
+
+.lesson-content strong {
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.lesson-content code {
+  background: #f3f4f6;
+  color: #7c3aed;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+}
+
+.lesson-content pre {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  padding: 1.25rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+
+.lesson-content pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.lesson-content ul {
+  list-style: disc;
+  margin: 1rem 0 1rem 2rem;
+}
+
+.lesson-content ol {
+  list-style: decimal;
+  margin: 1rem 0 1rem 2rem;
+}
+
+.lesson-content li {
+  margin: 0.5rem 0;
+  line-height: 1.7;
+}
+
+.lesson-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.lesson-content th,
+.lesson-content td {
+  border: 1px solid #d1d5db;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.lesson-content th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+.lesson-content blockquote {
+  border-left: 4px solid #6366f1;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  background: #eef2ff;
+  color: #4338ca;
+  border-radius: 0 8px 8px 0;
+}
+
+.lesson-content hr {
+  border: none;
+  border-top: 2px solid #e5e7eb;
+  margin: 2rem 0;
+}

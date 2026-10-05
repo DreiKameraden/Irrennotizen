@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Урок</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+  <header class="bg-white border-b border-gray-200 sticky top-0 z-10">
+    <div class="max-w-3xl mx-auto px-4 py-4 flex items-center justify-between text-sm">
+      <a href="index.html" class="text-indigo-600 hover:underline">← К курсам</a>
+      <span class="text-yellow-500 font-bold">⭐ <span id="xp">0</span> XP</span>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-6">
+    <div id="lesson-header"></div>
+    <div id="lesson-content" class="mt-8 prose prose-indigo max-w-none"></div>
+    <div id="lesson-footer" class="mt-8"></div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <script src="scripts/data.js"></script>
+  <script src="scripts/progress.js"></script>
+  <script src="scripts/site.js"></script>
+
+  <script src="scripts/quiz.js"></script>
+  <script src="scripts/types/flashcards.js"></script>
+  <script src="scripts/types/fill-blank.js"></script>
+  <script src="scripts/types/hotspots.js"></script>
+  <script src="scripts/types/matching.js"></script>
+  <script src="scripts/types/map.js"></script>
+  <script src="scripts/types/map-quiz.js"></script>
+
+  <script src="scripts/lesson.js"></script>
+</body>
+</html>
+</body>
+</html>
